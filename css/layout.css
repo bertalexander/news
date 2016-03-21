@@ -1,0 +1,58 @@
+body{
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.bulk {
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+.heading {
+	margin-bottom: 2cm;
+	border-bottom: 2px solid #000;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 10px 0px 0px 0px;
+	
+}
+
+.heading h1{
+padding: 0;
+margin: 0;
+}
+
+.main-content{
+	padding-top: 80px;
+
+}
+
+.box {
+	padding: 20px ;
+	border: 1px solid #000;
+	margin-bottom: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.box img {
+	max-width:100%;
+	height:auto;
+	position: static;
+	padding-bottom: 10px
+}
+
+.box a.read-more {
+	display: block;
+	margin-top: 5px;
+	padding-top: 10px;
+	border-top: 1px solid #ccc;
+}
+
+.footer {
+	border-top: 2px solid #000;
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 10px 10px 0px 10px;
+}
