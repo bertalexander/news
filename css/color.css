@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5; 
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff3f3f;
+  text-decoration: none;
+}
+
+.bulk {
+   
+background: rgb(153,207,255);
+background: -moz-linear-gradient(top, rgb(153,207,255) 0%, rgb(254,254,254) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgb(153,207,255)), color-stop(100%, rgb(254,254,254)));
+background: -webkit-linear-gradient(top, rgb(153,207,255) 0%, rgb(254,254,254) 100%);
+background: -o-linear-gradient(top, rgb(153,207,255) 0%, rgb(254,254,254) 100%);
+background: -ms-linear-gradient(top, rgb(153,207,255) 0%, rgb(254,254,254) 100%);
+background: linear-gradient(to bottom, rgb(153,207,255) 0%, rgb(254,254,254) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99cfff', endColorstr='#fefefe', GradientType=0 );
+  /* creaed using cssmatic */
+}
+
+.heading {
+  background-color: #fff;
+  
+}
+
+h1 small {
+  color: #333;
+  font-size: .6em;
+}
+
+img.center{
+  display: block;
+  margin: 0px auto;
+
+}
+
+img.logo{
+  width: 330px;
+  height: 110px;
+ }
+
+.box {
+  background-color: #fff;
+}
+
+.box a.read-more {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #fff;
+  color: #000;
+  font-style: italic;
+}
